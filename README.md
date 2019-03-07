@@ -35,7 +35,7 @@ class Cell_colv: UICollectionViewCell {
         contentView.addConstraint(NSLayoutConstraint(item: btn, attribute: .bottom, relatedBy: .equal, toItem: contentView, attribute: .bottom, multiplier: 1, constant: 0))
         contentView.addConstraint(NSLayoutConstraint(item: btn, attribute: .leading, relatedBy: .equal, toItem: contentView, attribute: .leading, multiplier: 1, constant: 15))
         contentView.addConstraint(NSLayoutConstraint(item: btn, attribute: .trailing, relatedBy: .equal, toItem: contentView, attribute: .trailing, multiplier: 1, constant: -15))
-}
+    }
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -60,6 +60,7 @@ class Cell_colv: UICollectionViewCell {
 }
 ```
 
+效果如下：
 ![YSColvCellSelfSizing](1.jpg "YSColvCellSelfSizing")
 
 ```swift
@@ -128,4 +129,5 @@ class FlowLayout_colv: UICollectionViewFlowLayout {
 }
 ```
 
-![YSColvCellSelfSizing](1.jpg "YSColvCellSelfSizing")
+效果如下：
+![YSColvCellSelfSizing](2.jpg "YSColvCellSelfSizing")
