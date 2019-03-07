@@ -60,7 +60,8 @@ class Cell_colv: UICollectionViewCell {
 }
 ```
 
-效果如下：
+效果图如下：
+
 ![YSColvCellSelfSizing](1.jpg "YSColvCellSelfSizing")
 
 ```swift
@@ -129,5 +130,6 @@ class FlowLayout_colv: UICollectionViewFlowLayout {
 }
 ```
 
-效果如下：
+效果图如下：
+
 ![YSColvCellSelfSizing](2.jpg "YSColvCellSelfSizing")
